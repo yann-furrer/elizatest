@@ -1,12 +1,13 @@
 ---
 application:
   name: "elizatest"
-  project: "elisa Test"
+  project: "o"
   organization: "QoveryCommunity"
-databases:
-- type: "MYSQL"
-  name: "Eliza"
-  version: "5.6"
+  storage:
+  - name: "Eliza"
+    size: "500"
+    type: "slow_hdd"
+    mount_point: "/mnt/Eliza"
 routers:
 - name: "main-elizatest"
   routes:
