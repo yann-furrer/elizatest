@@ -3,11 +3,10 @@ application:
   name: "elizatest"
   project: "eliza "
   organization: "QoveryCommunity"
-  storage:
-  - name: "Elizadisk"
-    size: "500"
-    type: "slow_hdd"
-    mount_point: "/mnt/Elizadisk"
+databases:
+- type: "MYSQL"
+  name: "Eliza"
+  version: "5.6"
 routers:
 - name: "main-elizatest"
   routes:
