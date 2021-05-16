@@ -1,7 +1,7 @@
 ---
 application:
   name: "elizatest"
-  project: "eliza "
+  project: "elisa Test"
   organization: "QoveryCommunity"
 databases:
 - type: "MYSQL"
