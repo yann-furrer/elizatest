@@ -1,0 +1,16 @@
+---
+application:
+  name: "elizatest"
+  project: "eliza "
+  organization: "QoveryCommunity"
+  storage:
+  - name: "Elizadisk"
+    size: "500"
+    type: "slow_hdd"
+    mount_point: "/mnt/Elizadisk"
+routers:
+- name: "main-elizatest"
+  routes:
+  - application_name: "elizatest"
+    paths:
+    - "/*"
